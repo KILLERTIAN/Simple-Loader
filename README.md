@@ -4,6 +4,9 @@ This basic loader was made with help of ChatGPT and ew modifications were done i
 
 Preview:-
 
+![image](https://user-images.githubusercontent.com/77867638/224366844-60f19949-38f7-4a9d-8bb9-0407cb1bab7b.png)
+
+
 # License
 
 MIT License
