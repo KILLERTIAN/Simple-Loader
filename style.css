@@ -32,17 +32,22 @@
 @keyframes spin {
     0% {
         transform: rotate(0deg) scale(0.25);
+        background-color: rgb(255, 75, 75);
     }
 
     33% {
         transform: rotate(120deg) scale(0.75);
+        background-color: rgb(255, 181, 43);
     }
 
     66% {
         transform: rotate(240deg) scale(1);
+        background-color: rgb(255, 123, 16);
+
     }
 
     100% {
         transform: rotate(360deg) scale(0.25);
+        background-color: rgb(255, 35, 127);
     }
 }
