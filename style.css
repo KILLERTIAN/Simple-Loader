@@ -20,13 +20,18 @@
     border-bottom-right-radius: 30%;
     width: 120px;
     height: 120px;
-    animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite, animateColor 1.5s linear infinite;
     /* position: absolute; */
     align-items: center;
     justify-content: center;
     /* top: 50%;
     left: 50%; */
     transform: translate(-50%, -50%);
+    /* animation: animateColor 1.5s linear infinite */
+}
+
+.loader::after {
+    animation: animateColor 1.5s linear infinite
 }
 
 @keyframes spin {
@@ -49,5 +54,16 @@
     100% {
         transform: rotate(360deg) scale(0.25);
         background-color: rgb(255, 35, 127);
+        filter: hue-rotate(360deg);
+    }
+}
+
+@keyframes animateColor {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    100% {
+        filter: hue-rotate(360deg);
     }
 }
