@@ -1,6 +1,6 @@
 # Simple-Loader
 
-This basic loader was made with help of ChatGPT and few modifications were done in the desisn.
+This basic loader was made with help of ChatGPT and some modifications were done in the desisn.
 
 Link :- https://killertian.github.io/Simple-Loader/
 
